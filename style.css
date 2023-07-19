@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@300;400;500;700&family=Sora:wght@300;400;500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+  background-color: #2A2F4F;
+  font-family:'Poppins', sans-serif;
+}
+
+.title{
+  margin-bottom: 10px;
+  color: yellow;
+}
+.box-nav{
+
+  width: 100%;
+  background-color: #9336B4;
+  color: #FDE2F3;
+  text-align: center;
+  padding: 15px;
+}
+
+.box-question{
+  background-color: #1F6E8C;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+
+}
+
+.box-question > input {
+
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #C5DFF8;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  color: #000;
+}
+
+.box-question > button{
+
+  width:200px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  background-color: rgba(237, 237, 47, 0.49);
+  cursor: pointer;
+
+}
+
+button:hover{
+
+  background-color:#08395c65;
+
+
+}

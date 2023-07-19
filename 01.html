@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercícios simples</title>
+</head>
+<body>
+  <div class="box-nav">
+  <h1 class="title">Exercícios Simples de Javascript #00</h1>
+  <h3>Thais Vicente</h3>
+  </div>
+<div class="box-question">
+  <p>Leia o valor de um input e mostre em um alert.
+  </p>
+  <br>
+  <input type="text" id="num" placeholder="Digite um valor">
+  <br><br>
+  <button onclick="go()">Enviar</button>
+</div>
+</body>
+<script>
+  function go() 
+  {
+    var valueInput = document.getElementById("num").value;
+    alert(valueInput + " testando")
+  }
+</script>
+</html>
